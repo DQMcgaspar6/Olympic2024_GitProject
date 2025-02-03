@@ -1,5 +1,5 @@
-# This repo is for Assignment 3 in BABI4005. It
-contains an analysis of the Olympic 2024 Medallist dataset. The analysis includes:
+# Olympic 2024 Medallist Analysis
+This repo is for Assignment 3 in BABI4005. It contains an analysis of the Olympic 2024 Medallist dataset. The analysis includes:
 - Exploratory data analysis (EDA)
 - Summaries and Visualizations
 ## Files
