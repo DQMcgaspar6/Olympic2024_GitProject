@@ -1,9 +1,2 @@
+Olympic2024_Medallists.csv
 .ipynb_checkpoints/
-
-# Ignore all files inside the data/ and clean_data/ folders
-data/*
-clean_data/*
-
-# Ignore only CSV files inside data/ and clean_data/
-data/*.csv
-clean_data/*.csv
