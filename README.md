@@ -12,7 +12,7 @@ To ensure a well-organized project, a structured file system was created with th
 * data/ – Contains raw and clean datasets (excluded from GitHub via .gitignore)
 * scripts/ – Includes Python scripts and Jupyter notebooks for analysis.
 * results/ – Stores visualizations or generated reports.
-* folder_structure/ – Stores screenshots of the project structure.
+* folder_structure/ – Contains screenshots of the project directory structure, showing how files are organized.
 
 The datasets were sourced from Kaggle: https://www.kaggle.com/datasets/muhammadehsan02/olympic-summer-games-paris-2024/
 
@@ -43,38 +43,50 @@ To follow best practices, all structural changes were first implemented in a sep
 
 Why Work in a Separate Branch?
 * Organized folder structure before finalizing the project.
-* Kept main clean while testing project setup.
+* Allowed testing and adjustments without affecting the main branch.
 * Allowed for safe modifications without affecting main
 
 Why Merge File_Structure into main?
 
-After ensuring the structured project was well-organized and complete, merging was the best decision because:
+After reviewing the structured project, I decided to merge File_Structure into main because:
 
-* Finalized files were ready for the main repository.
-* Merging ensured all structural improvements were properly integrated.
-* Keeping everything only in File_Structure would make long-term maintenance harder.
-* The main branch now contains the finalized, structured version of the project.
+* The structured files were finalized and ready for the main repository.
+* Merging ensured all improvements, including removing outdated files (like unnecessary .md and .html versions of Assignment 3), were included in the final version.
+* Keeping everything in File_Structure would make it harder to maintain long-term.
 
-### Project File Structure
+
+### While this project focused on structuring the data and merging datasets, I also included some initial visualizations to explore trends in the data. These are stored in the results/ folder and include:
+
+* Top 10 Countries by Medal Count (Bar Chart)
+* Gender Distribution of Medalists (Pie Chart)
+* Age Distribution of Athletes (Histogram)
+* Distribution of Medal Types by Gender (Column Chart)
+
+Further analysis could be conducted, including:
+
+* Medal distribution by country or event.
+* Athlete characteristics (age, height, weight) of medalists.
+
+	
 
 Below is the structured file organization used in the project:
 
-#### Main Folder Structure
+### Main Folder Structure
 ![File Structure](folder_structure/main_folder.png)
 
-#### Data Folder
+### Data Folder
 ![File Structure](folder_structure/data_folder.png)
 
-#### Cleaned Data Folder
+### Cleaned Data Folder
 ![File Structure](folder_structure/clean_data_folder.png)
 
-#### Raw Data Folder
+### Raw Data Folder
 ![File Structure](folder_structure/raw_data_folder.png)
 
-#### Results Folder
+### Results Folder
 ![File Structure](folder_structure/results_folder.png)
 
-#### Scripts Folder
+### Scripts Folder
 ![File Structure](folder_structure/scripts_folder.png)
 
 
