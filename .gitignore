@@ -1,2 +1,5 @@
-Olympic2024_Medallists.csv
 .ipynb_checkpoints/
+
+# Ignore all files inside data/ except folder_structure
+data/*
+!data/folder_structure/
