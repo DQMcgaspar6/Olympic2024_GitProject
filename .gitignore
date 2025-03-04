@@ -1,8 +1,5 @@
 .ipynb_checkpoints/
 
-# Ignore all files inside the data/ 
+# Ignore all files inside data/ except folder_structure
 data/*
-
-# Ignore only CSV files inside raw_data/ and clean_data/
-raw_data/*.csv
-clean_data/*.csv
+!data/folder_structure/
